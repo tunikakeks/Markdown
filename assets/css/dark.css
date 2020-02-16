@@ -1,0 +1,23 @@
+:root {
+    --backgroundColor-1: #1a1a1aff;
+    --backgroundColor-2: #212121ff;
+    --backgroundColor-3: #282828;
+    --backgroundColor-4: #373737ff;
+    --shadow: rgb(73, 73, 73);
+    --fontColor-1: #BDC3C7;
+    --fontColor-2: rgba(189, 195, 199, 0.623);
+    --color-green: #7bb77bff;
+    --color-green-Hover: #6ba76bff;
+    --color-red: #b77b7bff;
+    --color-orange: #b7937bff;
+    --color-yellow: #b7ab7bff;
+    /* --color-link: #4b7bec; */
+    --color-link-1: #778beb;
+    --color-link-2: #3e56cc;
+    --brandBlue: #2c5aa0;
+    --brandBlue-hover: #254a83;
+    --formBG: #202020ff;
+    --formBorder: #1b1b1bff;
+    --textBoxBorder: #1a1a1aff;
+    --textBoxBG: #1f1f1fff;
+}

@@ -1,0 +1,45 @@
+span {
+    &.uri {
+        a {
+            color: var(--color-link-1);
+            font-style: italic;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &.multiLineBlock {
+        background-color: var(--backgroundColor-3);
+        border: 1px solid var(--backgroundColor-1);
+        padding: 2px;
+        padding-left: 3px;
+        padding-right: 4px;
+        border-radius: 2px;
+    }
+
+    &.oneLineBlock {
+        background-color: var(--backgroundColor-3);
+        /* border: 1px solid var(--backgroundColor-1); */
+        padding: 2px;
+        padding-left: 3px;
+        padding-right: 4px;
+        border-radius: 2px;
+    }
+
+    &.spoiler {
+        background-color: var(--backgroundColor-4);
+        padding: 2px;
+        padding-left: 3px;
+        padding-right: 3px;
+        border-radius: 2px;
+        z-index: 2;
+        // &.hidden {
+        //     background-color: var(--backgroundColor-1);
+        //     color: var(--backgroundColor-1);
+        //     cursor: pointer;
+        // }
+    }
+}
