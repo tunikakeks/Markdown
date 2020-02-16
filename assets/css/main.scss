@@ -30,16 +30,25 @@ span {
     }
 
     &.spoiler {
-        background-color: var(--backgroundColor-4);
-        padding: 2px;
+        background-color: var(--backgroundColor-1);
+        color: var(--backgroundColor-1);
+        // padding: 2px;
         padding-left: 3px;
         padding-right: 3px;
         border-radius: 2px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 12px;
         z-index: 2;
+        cursor: pointer;
+        &:hover {
+            background-color: var(--backgroundColor-4);
+            color: var(--fontColor-1);
+        }
         // &.hidden {
         //     background-color: var(--backgroundColor-1);
-        //     color: var(--backgroundColor-1);
-        //     cursor: pointer;
+        //
+        //
         // }
     }
 }
