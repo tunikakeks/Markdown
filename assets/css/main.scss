@@ -1,19 +1,20 @@
 span {
     &.uri {
         a {
-            color: var(--color-link-1);
+            color: var(--colorLink);
             font-style: italic;
             cursor: pointer;
             text-decoration: none;
         }
         &:hover {
             text-decoration: underline;
+            color: var(--colorLinkHover);
         }
     }
 
     &.multiLineBlock {
-        background-color: var(--backgroundColor-3);
-        border: 1px solid var(--backgroundColor-1);
+        background-color: var(--lineblockBackground);
+        border: 1px solid var(--lineblockBorder);
         padding: 2px;
         padding-left: 3px;
         padding-right: 4px;
@@ -21,7 +22,7 @@ span {
     }
 
     &.oneLineBlock {
-        background-color: var(--backgroundColor-3);
+        background-color: var(--lineblockBackground);
         /* border: 1px solid var(--backgroundColor-1); */
         padding: 2px;
         padding-left: 3px;
@@ -30,20 +31,21 @@ span {
     }
 
     &.spoiler {
-        background-color: var(--backgroundColor-1);
-        color: var(--backgroundColor-1);
+        background-color: var(--spoilerBackground);
+        color: var(--spoilerBackground);
         // padding: 2px;
         padding-left: 3px;
         padding-right: 3px;
         border-radius: 2px;
         padding-top: 1px;
         padding-bottom: 1px;
+        line-height: 13px;
         font-size: 12px;
         z-index: 2;
         cursor: pointer;
         &:hover {
-            background-color: var(--backgroundColor-4);
-            color: var(--fontColor-1);
+            background-color: var(--spoilerBackgroundHover);
+            color: var(--spoilerForground);
         }
         // &.hidden {
         //     background-color: var(--backgroundColor-1);
