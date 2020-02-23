@@ -53,4 +53,15 @@ span {
         //
         // }
     }
+
+    &.blockquote {
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 2px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        background: var(--blockquoteBackground);
+        border: 0px solid var(--blockquoteBorder-info);
+        border-left-width: 3px;
+    }
 }

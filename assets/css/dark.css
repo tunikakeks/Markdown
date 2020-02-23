@@ -9,4 +9,11 @@
     /*Line Block*/
     --lineblockBackground: #282828;
     --lineblockBorder: #1a1a1aff;
+    /*Block Quote*/
+    --blockquoteBackground: #373737ff;
+    --blockquoteBorder-normal: #1a1a1aff;
+    --blockquoteBorder-info: #566cd8;
+    --blockquoteBorder-success: #56d872;
+    --blockquoteBorder-warning: #d8a456;
+    --blockquoteBorder-error: #d87056;
 }
